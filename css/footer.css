@@ -1,0 +1,35 @@
+.foot {
+  display: flex;
+  background-color: whitesmoke;
+}
+.foot-column {
+  flex-basis: 250px;
+  padding: 1px;
+}
+.head {
+  font-size: 15px;
+  font-weight: 700;
+}
+#footer ul {
+  list-style-type: none;
+  text-align: start;
+}
+#footer ul > li {
+  padding: 7px;
+  font-size: 12px;
+}
+#footer li:hover {
+  text-decoration: underline;
+  text-decoration-color: black;
+  text-decoration-thickness: 1px;
+}
+.foot > p {
+  flex-basis: 150px;
+  padding: 20px;
+  font-size: 12px;
+}
+.foot > p:hover {
+  text-decoration: underline;
+  text-decoration-color: black;
+  text-decoration-thickness: 1px;
+}

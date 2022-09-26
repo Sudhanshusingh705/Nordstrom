@@ -1,0 +1,18 @@
+#continer {
+  margin: 5% auto;
+  width: 27%;
+}
+
+input {
+  margin-top: 10px;
+}
+@media only screen and (min-width: 0px) and (max-width: 375px) {
+  #continer {
+    width: 80%;
+  }
+}
+@media only screen and (min-width: 376px) and (max-width: 768px) {
+  #continer {
+    width: 50%;
+  }
+}

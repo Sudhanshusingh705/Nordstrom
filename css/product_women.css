@@ -1,0 +1,122 @@
+#products_container {
+  width: 86%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  margin-left: 12%;
+  color: #393939;
+}
+.breadcrumb {
+  padding: 0px 20px;
+}
+.smalldiv {
+  border: 1px solid transparent;
+  height: 600px;
+  text-align: center;
+  padding: 5px;
+  color: #393939;
+}
+#image {
+  width: 100%;
+  height: 75%;
+}
+.name {
+  color: #393939;
+  font-size: 15px;
+  font-weight: 400;
+  margin: 0px;
+}
+.brand {
+  color: #393939;
+  font-size: 15px;
+  font-weight: 700;
+}
+.price {
+  color: #393939;
+  font-weight: 700;
+  font-size: 15px;
+}
+.price_div {
+  display: flex;
+  align-items: baseline;
+  align-content: space-around;
+  color: #393939;
+}
+#span {
+  width: 70px;
+  margin-left: 30px;
+  color: #393939;
+}
+#text {
+  width: 90%;
+  height: 435px;
+  background-image: url("https://n.nordstrommedia.com/id/a92a4b16-54ff-40d2-9467-b52d7f0cf136.jpeg?h=417&w=1334");
+  background-size: contain;
+  text-align: center;
+  margin-left: 1%;
+  color: #393939;
+}
+#name {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px;
+  padding-top: 290px;
+  text-decoration: underline;
+  color: #393939;
+}
+.srt {
+  display: flex;
+  justify-content: space-around;
+  color: #393939;
+}
+#sort {
+  height: 35px;
+  width: 200px;
+  color: #393939;
+  margin: auto 0px;
+}
+.leftbox {
+  width: 250px;
+  height: 470px;
+  text-overflow: ellipsis;
+  font-weight: bold;
+  color: #393939;
+}
+
+.leftbox p {
+  padding: 0px 30px;
+}
+input {
+  margin-left: 50px;
+}
+hr {
+  margin-top: 20px;
+}
+.flex {
+  display: flex;
+  margin-top: 4%;
+  color: #393939;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 375px) {
+  #products_container {
+    width: 86%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 10px;
+    /* float:right ; */
+    margin-left: 12%;
+    color: #393939;
+  }
+}
+@media only screen and (min-width: 376px) and (max-width: 768px) {
+  #products_container {
+    width: 86%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    /* float:right ; */
+    margin-left: 12%;
+    color: #393939;
+  }
+}

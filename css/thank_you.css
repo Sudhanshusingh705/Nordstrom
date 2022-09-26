@@ -1,0 +1,15 @@
+.top {
+  width: 100%;
+  height: 500px;
+  background-color: whitesmoke;
+
+  text-align: center;
+}
+.thankyou {
+  font-size: 70px;
+  font-weight: 400;
+}
+.top > P {
+  font-size: 18px;
+  font-weight: lighter;
+}

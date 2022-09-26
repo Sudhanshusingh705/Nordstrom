@@ -1,0 +1,433 @@
+@font-face {
+  font-family: BrandonText;
+  src: url("https://raw.githubusercontent.com/vibrantachintya/nordstrom/main/fonts/BrandonText-Regular.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: BrandonText-Bold;
+  src: url("https://raw.githubusercontent.com/vibrantachintya/nordstrom/main/fonts/BrandonText-Bold.otf")
+    format("opentype");
+}
+
+body {
+  font-family: BrandonText;
+  font-size: 15px;
+  margin: 0px;
+}
+
+#header {
+  margin-bottom: 50px;
+}
+
+#top {
+  background-color: red;
+  text-align: center;
+  color: white;
+  line-height: 1.4;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 0.15px;
+  padding: 10px 25px;
+}
+#top a {
+  cursor: pointer;
+  color: rgb(248, 246, 246);
+}
+
+#top p {
+  float: left;
+  margin-left: 400px;
+}
+
+#top button {
+  float: right;
+  margin-top: 10px;
+  color: white;
+  background-color: red;
+  border: none;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+#top button img {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+#top span {
+  vertical-align: top;
+}
+
+.clear {
+  clear: both;
+}
+
+#nav-bar {
+  margin-top: 25px;
+  padding-bottom: 13px;
+}
+
+#header a {
+  border-bottom: none;
+}
+
+#main-content a:hover {
+  border-bottom: 2px solid black;
+}
+
+#nav-bar > div {
+  width: 96.5%;
+  margin: auto;
+}
+
+#inside-div {
+  display: flex;
+  justify-content: space-between;
+}
+
+#logo {
+  width: 15%;
+}
+
+#navs {
+  margin: 0px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#navs > button {
+  cursor: pointer;
+  font-family: inherit;
+  border: none;
+  background: none;
+  color: #000;
+  font-size: 15px;
+  transition-duration: 1s;
+}
+
+#red {
+  color: #d61f27 !important;
+}
+
+#search {
+  display: flex;
+  width: 18%;
+}
+
+#search > div {
+  width: 37%;
+  margin-right: 20px;
+}
+
+#search > div:nth-last-child(1) {
+  margin-right: 0px;
+}
+
+#bag {
+  width: 15% !important;
+}
+
+#bag img {
+  margin-top: 3px;
+}
+
+#one,
+#two {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 14px;
+  color: #393939;
+}
+
+#one img {
+  width: 100%;
+  height: 30px;
+}
+#bag > a > img {
+  height: 25px;
+}
+
+#two > img {
+  width: 16px;
+  height: 16px;
+}
+
+.img > img {
+  width: 20px;
+  height: 20px;
+}
+#search p {
+  margin-left: 3px;
+}
+
+.Sale-content,
+.Home-content,
+.Women-content,
+.Men-content,
+.Kids-content,
+.YoungAdult-content,
+.Kids-content,
+.Activewear-content,
+.Gifts-content,
+.Beauty-content,
+.Designer-content,
+.Brands-content {
+  display: block;
+  height: 0px;
+  width: 100%;
+  position: absolute;
+  overflow: hidden;
+  background-color: #ffffff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 0px 25px;
+  padding-bottom: 0px;
+  z-index: 1;
+  transition: height 0.5s ease-out;
+  overflow-y: auto;
+}
+
+#inputBox {
+  display: block;
+  height: 0px;
+  position: absolute;
+  top: 90px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 6;
+  border: none;
+  padding: 0px 20px;
+  width: 400px;
+}
+
+#signIN {
+  display: none;
+  position: absolute;
+  top: 90px;
+  right: 20px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  border: none;
+  z-index: 7;
+  padding: 10px 20px;
+  background-color: white;
+  width: 30% !important;
+}
+
+#signIN li {
+  margin: 10px;
+  margin-bottom: 20px;
+  font-size: 12px;
+}
+
+#signIN li:nth-child(1) {
+  width: 65%;
+  background-color: black;
+  text-align: center;
+  padding: 10px 30px;
+}
+
+#signIN li:nth-child(2) {
+  width: 65%;
+  border: 1px solid black;
+  text-align: center;
+  padding: 10px 30px;
+}
+
+#signIN a {
+  text-decoration: none;
+  color: #393939;
+}
+
+#signIN li:nth-child(1) > a {
+  color: white;
+}
+
+.mainh3 {
+  margin-top: 20px;
+}
+.Sale-content > div,
+.Home-content > div,
+.Women-content > div,
+.Men-content > div,
+.Kids-content > div,
+.YoungAdult-content > div,
+.Kids-content > div,
+.Activewear-content > div,
+.Gifts-content > div,
+.Beauty-content > div,
+.Designer-content > div,
+.Brands-content > div {
+  display: flex;
+}
+
+.Sale-content > div > div,
+.Home-content > div > div,
+.Women-content > div > div,
+.Men-content > div > div,
+.Kids-content > div > div,
+.YoungAdult-content > div > div,
+.Kids-content > div > div,
+.Activewear-content > div > div,
+.Gifts-content > div > div,
+.Beauty-content > div > div,
+.Designer-content > div > div,
+.Brands-content > div > div {
+  margin-right: 80px;
+}
+
+.Sale-content ul,
+.Home-content ul,
+.Women-content ul,
+.Men-content ul,
+.Kids-content ul,
+.YoungAdult-content ul,
+.Kids-content ul,
+.Activewear-content ul,
+.Gifts-content ul,
+.Beauty-content ul,
+.Designer-content ul,
+.Brands-content ul {
+  list-style-type: none;
+}
+
+.Sale-content a,
+.Home-content a,
+.Women-content a,
+.Men-content a,
+.Kids-content a,
+.YoungAdult-content a,
+.Kids-content a,
+.Activewear-content a,
+.Gifts-content a,
+.Beauty-content a,
+.Designer-content a,
+.Brands-content a {
+  color: #393939;
+  font-size: 13px;
+  line-height: 1.4;
+  text-decoration: none;
+}
+
+.Sale-content li > a,
+.Home-content li > a,
+.Women-content li > a,
+.Men-content li > a,
+.Kids-content li > a,
+.YoungAdult-content li > a,
+.Kids-content li > a,
+.Activewear-content li > a,
+.Gifts-content li > a,
+.Beauty-content li > a,
+.Designer-content li > a,
+.Brands-content li > a {
+  font-size: 12px;
+}
+
+.Sale-content li,
+.Home-content li,
+.Women-content li,
+.Men-content li,
+.Kids-content li,
+.YoungAdult-content li,
+.Kids-content li,
+.Activewear-content li,
+.Gifts-content li,
+.Beauty-content li,
+.Designer-content li,
+.Brands-content li {
+  margin-bottom: 10px;
+}
+
+#main-content {
+  margin-top: 20px;
+}
+
+.firstDiv {
+  margin-right: 30px;
+}
+
+hr {
+  background-color: rgb(223, 213, 213);
+  height: 1px;
+  width: 200px;
+  margin-bottom: 10px;
+  border: none;
+}
+
+.topMargin {
+  margin-top: 30px;
+}
+
+.marginRem {
+  margin-right: 0px;
+  width: 15%;
+}
+
+.marginRem img {
+  width: 100%;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.decor {
+  font-size: 11px;
+}
+
+.decor + hr {
+  width: 110px;
+  background-color: black;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.foot {
+  display: flex;
+  justify-content: space-between;
+  background-color: whitesmoke;
+}
+
+.head {
+  font-family: BrandonText-Bold;
+}
+.foot-column {
+  padding: 40px 0px 20px;
+}
+#footer ul {
+  list-style-type: none;
+  text-align: start;
+  margin: 0px;
+  padding-left: 20px;
+}
+#footer ul > li {
+  padding: 7px;
+  font-size: 14px;
+}
+#footer li:hover {
+  text-decoration: underline;
+  text-decoration-color: black;
+  text-decoration-thickness: 1px;
+}
+.foot-second > p {
+  padding: 20px;
+  font-size: 14px;
+}
+.foot > p:hover {
+  text-decoration: underline;
+  text-decoration-color: black;
+  text-decoration-thickness: 1px;
+}
+
+#foot-col {
+  width: 250px;
+  padding-top: 50px;
+}
+
+.foot-second {
+  display: flex;
+  background: whitesmoke;
+  padding-bottom: 20px;
+}

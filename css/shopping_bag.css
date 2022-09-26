@@ -1,0 +1,164 @@
+.container {
+  padding: 0px 50px;
+}
+.shopping_bag {
+  display: flex;
+  padding: 20px 70px;
+}
+.shopping_bag > div {
+  font-size: 17px;
+  border: 0.5px solid gray;
+  padding: 10px 25px;
+}
+.shopping2 {
+  padding: 1px 70px;
+}
+.shopping2 > h1 {
+  font-size: 25px;
+  font-weight: 400;
+  color: #393939;
+}
+.shopping2 > div {
+  font-size: 15px;
+  line-height: 25px;
+  color: #393939;
+}
+.shopping2 > hr {
+  margin-top: 20px;
+}
+
+.maindiv {
+  display: flex;
+  width: 90%;
+  height: 340px;
+  margin: auto;
+}
+.imgdiv {
+  height: 200px;
+  width: 100px;
+
+  margin-left: 10px;
+  padding: 10px;
+}
+.imgdiv > img {
+  width: 85px;
+}
+.contentdiv {
+  height: 340px;
+  width: 490px;
+}
+.pricediv {
+  height: 340px;
+  padding: 10px;
+  width: 100px;
+}
+
+.pricediv > span {
+  font-size: 17px;
+  font-weight: bolder;
+  margin-left: 5px;
+  color: #393939;
+}
+.qtydiv {
+  height: 340px;
+  width: 42%;
+
+  padding: 10px;
+}
+.qtydiv > span {
+  margin-right: 5px;
+  color: blue;
+  font-size: large;
+}
+#product > hr {
+  width: 89.5%;
+}
+.namedetaildiv {
+  line-height: 5px;
+}
+.namedetaildiv > h3 {
+  font-size: 14px;
+  color: green;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.namedetaildiv > p {
+  font-size: 14px;
+  color: #393939;
+}
+.sizediv {
+  border: 1px solid transparent;
+  color: #393939;
+  line-height: 8px;
+  font-size: 15px;
+}
+.sizediv + div {
+  border: 1px solid transparent;
+  font-size: 14px;
+  color: #393939;
+  width: 75%;
+}
+.sizediv + div > h3 {
+  font-weight: 500;
+  font-size: 16px;
+  text-decoration: underline;
+  color: #393939;
+}
+.sizediv + div > p {
+  margin-left: 20px;
+  color: #393939;
+}
+.buttondiv > button {
+  background-color: transparent;
+  color: blue;
+  font-size: 14px;
+  padding: 0px 15px;
+  border: 1px solid transparent;
+}
+.buttondiv > button:hover {
+  color: lightseagreen;
+}
+.buttondiv {
+  margin-top: 5px;
+}
+#leftbox > img {
+  width: 200px;
+}
+#subtotal {
+  width: 90%;
+
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  color: #393939;
+}
+#rightbox {
+  height: 180px;
+  width: 380px;
+
+  margin-top: 10px;
+}
+#rightbox > button {
+  width: 380px;
+  height: 55px;
+  background-color: black;
+  color: white;
+  border: transparent;
+  font-size: 15px;
+}
+#rightbox > button:hover {
+  background-color: gray;
+}
+#subtotal > h3 {
+  font-size: 16px;
+  font-weight: 600;
+}
+#subtotal > p {
+  font-weight: bolder;
+}
+#hell {
+  line-height: 23px;
+}
+#helldiv {
+  width: 350px;
+}

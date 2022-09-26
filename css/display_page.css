@@ -1,0 +1,270 @@
+#container1 {
+  width: 100%;
+  height: 160px;
+  border: 1px solid transparent;
+}
+#container2 {
+  width: 100%;
+  border: 1px solid transparent;
+  display: flex;
+}
+#container2 > :nth-child(1) {
+  height: 1500px;
+  width: 900px;
+  border: 1px solid transparent;
+  display: grid;
+  grid-template-rows: repeat(2, 720px);
+  grid-template-columns: repeat(2, 440px);
+  grid-gap: 5px;
+  padding-top: 20px;
+  align-items: space-around;
+}
+
+#container2 > :nth-child(2) {
+  border: 1px solid transparent;
+  width: 400px;
+  padding: 50px;
+}
+#image1 {
+  height: 98%;
+  width: 98%;
+  margin: auto;
+}
+#image2 {
+  height: 98%;
+  width: 98%;
+  margin: auto;
+}
+#image3 {
+  height: 98%;
+  width: 98%;
+  margin: auto;
+}
+#image4 {
+  height: 98%;
+  width: 98%;
+  margin: auto;
+}
+
+#product_name {
+  color: #393939;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 0px;
+}
+#big_and_regular {
+  color: #8b8989;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 20px;
+}
+#brand_name {
+  color: #393939;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 0px;
+}
+#product_price {
+  color: #d61f27;
+  font-size: 20px;
+  font-weight: 700;
+}
+#inr {
+  color: #d61f27;
+  font-size: 15px;
+  font-weight: 700;
+}
+#description_1 {
+  color: #393939;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+}
+#description_2 {
+  color: #393939;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+}
+#fit_true_to_size {
+  color: #555353;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 20px;
+}
+#size {
+  position: relative;
+  width: 400px;
+  height: 50px;
+  border: 1px solid #b6b1b1;
+  text-transform: capitalize;
+  color: #393939;
+  background: white;
+  text-align: left;
+  padding: 15px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.4);
+  -webkit-transform: scale(1.4);
+  transform: scale(1.4);
+}
+
+option {
+  font-size: 20px;
+}
+#color {
+  position: relative;
+  width: 400px;
+  height: 50px;
+  border: 1px solid #b6b1b1;
+  text-transform: capitalize;
+  color: #393939;
+  background: white;
+  text-align: left;
+  padding: 15px;
+  font-size: 12px;
+  cursor: pointer;
+}
+#button {
+  position: relative;
+  width: 400px;
+  height: 50px;
+  border: 1px solid #b6b1b1;
+  text-transform: capitalize;
+  color: white;
+  background: black;
+  text-align: left;
+  padding: 15px;
+  font-size: 12px;
+  cursor: pointer;
+  text-align: center;
+}
+#button:hover {
+  -ms-transform: scale(1.02);
+  -webkit-transform: scale(1.02);
+  transform: scale(1.02);
+}
+#shopping_bag {
+  height: 15px;
+  width: 26px;
+  align-items: baseline;
+}
+#red {
+  color: #bf4342;
+  font-size: 14px;
+}
+#north_face {
+  color: #393939;
+  font-size: 13px;
+  text-align: end;
+  line-height: 20px;
+  text-decoration: underline;
+}
+#gift_detail {
+  width: 863px;
+  height: 650px;
+  border-top: 1px solid rgb(235, 229, 229);
+  display: flex;
+  margin-left: 30px;
+  padding-top: 20px;
+}
+a {
+  text-decoration: none;
+  color: #393939;
+}
+#gift {
+  width: 414px;
+  height: 650px;
+  border: 1px solid transparent;
+  margin-right: 30px;
+  padding-top: 20px;
+}
+#detail {
+  width: 414px;
+  height: 650px;
+  border: 1px solid transparent;
+}
+li {
+  color: #393939;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 20px;
+}
+#ul1:nth-child(1) {
+  color: #393939;
+  font-size: 19px;
+  font-weight: 700;
+}
+.detail_span {
+  color: #393939;
+  font-size: 19px;
+  font-weight: 700;
+}
+#ul3:nth-child(1) {
+  color: #393939;
+  font-size: 19px;
+  font-weight: 700;
+}
+.small_font {
+  color: #393939;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 30px;
+}
+#see_more {
+  color: #393939;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 30px;
+  text-decoration: underline;
+}
+.ship_return {
+  color: #393939;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 30px;
+}
+.description {
+  color: #393939;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 20px;
+}
+.h3 {
+  color: #393939;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+}
+.button2 {
+  position: relative;
+  width: 200px;
+  height: 40px;
+  border: 1px solid black;
+  text-transform: capitalize;
+  color: #393939;
+  background: white;
+  text-align: left;
+  padding: 15px;
+  font-size: 12px;
+  cursor: pointer;
+  text-align: center;
+}
+.button2:hover {
+  -ms-transform: scale(1.02);
+  -webkit-transform: scale(1.02);
+  transform: scale(1.02);
+}
+#treasure_bond {
+  color: #393939;
+  font-size: 19px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+#faq_review {
+  width: 95%;
+  border-top: 1px solid rgb(235, 229, 229);
+}
