@@ -13,7 +13,7 @@ This is clone of Nordstorm.com, A leading fashion retailer offering clothing, sh
 
 ## Key Features of Project
 
-1. Landing Page by Achintya Gaumat :
+1. Landing Page by  :
 
 ![](https://raw.githubusercontent.com/vibrantachintya/nordstrom/main/images/nordstrom_screenshot_1.png)
 ![](https://raw.githubusercontent.com/vibrantachintya/nordstrom/main/images/nordstrom_screenshot_2.png)
