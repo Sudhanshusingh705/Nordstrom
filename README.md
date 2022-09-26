@@ -21,34 +21,34 @@ This is clone of Nordstorm.com, A leading fashion retailer offering clothing, sh
 ![](https://raw.githubusercontent.com/vibrantachintya/nordstrom/main/images/nordstrom_screenshot_4.png)
 (Screenshots of Landing webpage created by Achintya Gaumat)
 
-2. Login + Signup created by Syed Doulath :
+2. Login + Signup created by :
 
 ![](https://raw.githubusercontent.com/vibrantachintya/nordstrom/main/images/nordstrom_screenshot_5.png)
 ![](https://raw.githubusercontent.com/vibrantachintya/nordstrom/main/images/nordstrom_screenshot_6.png)
 (Screenshots of Login/Signup webpage created by Syed Doulath)
 
 
-3. Header + Footer by Moovendhan R :
+3. Header + Footer by :
 
 ![](https://raw.githubusercontent.com/vibrantachintya/nordstrom/main/images/nordstrom_screenshot_7.png)
 ![](https://raw.githubusercontent.com/vibrantachintya/nordstrom/main/images/nordstrom_screenshot_8.png)
 (Screenshots of Header+Footer webpage created by Moovendhan R)
 
 
-4. Categories with Sorting/Filter by Manish Reddy :
+4. Categories with Sorting/Filter by  :
 
 ![](https://raw.githubusercontent.com/vibrantachintya/nordstrom/main/images/nordstrom_screenshot_9.png)
 ![](https://raw.githubusercontent.com/vibrantachintya/nordstrom/main/images/nordstrom_screenshot_10.png)
 (Screenshots of Categories webpage created by Manish Reddy)
 
 
-5. Product Display by Suraj Kumar :
+5. Product Display by r :
 
 ![](https://raw.githubusercontent.com/vibrantachintya/nordstrom/main/images/nordstrom_screenshot_11.png)
 ![](https://raw.githubusercontent.com/vibrantachintya/nordstrom/main/images/nordstrom_screenshot_12.png)
 (Screenshots of Product Display webpage created by Manish Reddy)
 
-6. Shopping Bag, Checkout by Chandan Kumar :
+6. Shopping Bag, Checkout by :
 
 ![](https://raw.githubusercontent.com/vibrantachintya/nordstrom/main/images/nordstrom_screenshot_13.png)
 ![](https://raw.githubusercontent.com/vibrantachintya/nordstrom/main/images/nordstrom_screenshot_14.png)
